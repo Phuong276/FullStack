@@ -32,17 +32,17 @@ module.exports = {
       phonenumber: {
         type: Sequelize.STRING
       },
+      positionId: {
+        type: Sequelize.STRING
+      },
       image: {
         type: Sequelize.STRING
       },
-      phonenumber: {
-        type: Sequelize.STRING
-      },
-      createAt: {
+      createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updateAt: {
+      updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
       }
